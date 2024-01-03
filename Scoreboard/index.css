@@ -1,0 +1,49 @@
+@font-face {
+    font-family: scoreBoard;
+    src: url(timer.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #EEE;
+    font-size: 40px;
+    font-family: Verdana;
+}
+
+#home-counter, #guest-counter {
+    width: 155px;
+    height: 120px;
+    background: black;
+    color: red;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: scoreBoard;    
+}
+
+button {
+    color: #9AABD8;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 3px;
+    padding: 10px 10px;
+}
+
+#new-game {
+    display: block;
+    width: 200px;
+    margin: 30px auto 10px auto;
+}
